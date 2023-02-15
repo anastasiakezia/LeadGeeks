@@ -1,0 +1,125 @@
+/* ----------------------------------------------- */
+/* ----------------- GLOBAL CSS ------------------ */
+/* ----------------------------------------------- */
+/* CSS Variable */
+:root {
+  --color-orange-100: #f15a25;
+  --color-orange-200: #ff8210;
+  --color-dark-gray: #292929;
+  --color-light-gray: #f1f2f3;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FONT */
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 76px;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 50px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.t1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  /* identical to box height, or 159% */
+
+  color: #000000;
+}
+
+button {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.q {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #000000;
+}
+
+.cta {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 95.5%;
+  /* or 34px */
+
+  color: #000000;
+}
+
+.sh2 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 95.5%;
+  /* identical to box height, or 19px */
+
+  color: #000000;
+}
+
+.sh1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.t2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  /* identical to box height, or 114% */
+
+  color: #000000;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}

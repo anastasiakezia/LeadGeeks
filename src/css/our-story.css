@@ -1,0 +1,1502 @@
+/* -------------------------------------------------- */
+/* --------------------- Navbar --------------------- */
+/* -------------------------------------------------- */
+
+nav {
+    width: 100%;
+    padding: 50px 0;
+    /* animation magic */
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    z-index: 9999;
+    top: 0;
+    position: fixed;
+  }
+  
+  a.navbar-brand img.navbar-logo {
+    max-width: 170px;
+    transition: all linear 0.5s ease-in-out;
+  }
+  
+  .shrink {
+    padding: 0;
+  }
+  
+  .navbar {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .navbar .container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .nav-item .nav-link {
+    color: #292929;
+    margin-left: 42px;
+  }
+  
+  a.nav-link.active {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid #f15a25;
+    margin-bottom: -2px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+  }
+
+
+/* -------------------------------------------------- */
+/* --------------------- Footer --------------------- */
+/* -------------------------------------------------- */
+.container-fluid.all-page-footer {
+    width: 90%;
+  }
+  
+  .container-fluid.all-page-footer p {
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Montserrat";
+    text-align: left;
+    color: rgb(156, 162, 176);
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+  
+  .row.footer1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(156, 162, 176, 0.4);
+  }
+  
+  .row.footer2 a,
+  .row.footer2 p {
+    text-decoration: none;
+    font-family: "Outfit";
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(156, 162, 176);
+  }
+
+
+/* ------------------------------- */
+/* ---------OUR STORY PAGE-------- */
+/* ------------------------------- */
+
+/* -----Our Story Title Section----- */
+.title {
+    background: #f1f2f3;
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+/* -----End of Our Story Title Section----- */
+
+/* -----Greetings Section----- */
+.greetings {
+    background: #292929;
+}
+
+.greetings_title{
+    font-family: "Outfit";
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+
+.greetings_desc{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    line-height: 35px;
+}
+/* -----End of Greetings Section----- */
+
+
+/* -----History and Journey Section----- */
+.history_title{
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.history_desc{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* -----End of History and Journey Section----- */
+
+
+/* ---Mission Statement Section--- */
+.mission-statement_header {
+    background: #F15A25;
+}
+
+/* Our Vision */
+.our_vision {
+    background: #f1f2f3;
+}
+
+.vision_title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.vision_desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Our Mission */
+.our_mission {
+    background: #292929;
+}
+
+.mission_title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.mission_desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+.mission-statement-footer {
+    background: #F15A25;
+}
+/* -----End of Mission Statement Section----- */
+
+
+/* -----Harps Section----- */
+.harps_desc {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.harps_word {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    color: #F15A25;
+}
+/* -----End of Harps Section----- */
+
+
+/* -----Five Characters Section----- */
+.fivecharacters {
+    background: #292929;
+}
+
+.honest,
+.adaptive,
+.responsible,
+.punctual,
+.solution-oriented {
+    background: white;
+    border-radius: 40px;
+}
+
+.honest_title,
+.adaptive_title,
+.responsible_title,
+.punctual_title,
+.solution-oriented_title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+.honest_desc,
+.adaptive_desc,
+.responsible_desc,
+.punctual_desc,
+.solution-oriented_desc {
+    font-family: "Montserrat", sans-serif;
+}
+/* -----End of Five Characters Section----- */
+
+
+/* -----Environment Section----- */
+.environment {
+    background: #F15A25;
+}
+
+.environment_desc {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+/* -----End of Environment Section */
+
+/* -----Qualities Section----- */
+.qualities {
+    background: #F1F2F3;
+}
+
+.qualities_text {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.work-life-title,
+.experimental-minds-title,
+.continuous-growth-title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    color: #F15A25;
+}
+
+.work-life-desc,
+.experimental-minds-desc,
+.continuous-growth-desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* -----End of Qualities----- */
+
+/* -----The Dream Team Section----- */
+.dream-team_text {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+/* -----End of The Dream Team Section----- */
+
+/* -----Department Section----- */
+.department {
+    background: #292929;
+}
+
+.management_title,
+.operation_title,
+.experience_title,
+.growth_title,
+.human-resources_title,
+.finance_title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.management_desc,
+.operation_desc,
+.experience_desc,
+.growth_desc,
+.human-resources_desc,
+.finance_desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Iterate Section */
+.iterate {
+    background: #F15A25;
+}
+
+.iterate_title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.iterate_desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Data Source Section */
+.data-source_title,
+.legal_title,
+.big-data_title,
+.database_title {
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+
+.legal_desc,
+.big-data_desc,
+.database_desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* ---------------------------------- */
+/* -------END OF OUR STORY PAGE------ */
+/* ---------------------------------- */
+
+
+/* ---Responsive Screen--- */
+@media screen and (max-width: 1600px) {
+
+    /* -----Our Story Title Section----- */
+    .title {
+        font-size: 60px;
+        padding: 25px;
+        margin-bottom: 0px;
+    }
+
+    /* -----Greetings Section----- */
+    .greetings_img {
+        position: relative;
+        left: 85px;
+    }
+
+    .greetings_text {
+        position: relative;
+        top: 60px;
+        left: 35px;
+    }
+
+    .greetings_title{
+        font-size: 40px;
+    }
+
+    .greetings_desc {
+        margin-right: 150px;
+        font-size: 22px;
+    }
+
+    /* -----History Section----- */
+    .history_title {
+        margin-bottom: 30px;
+        font-size: 60px;
+    }
+
+    .history_desc {
+        margin-right: 380px;
+        margin-bottom: 45px;
+        font-size: 22px;
+    }
+
+    .history-button-learn-more {
+        text-decoration: none;
+        width: 250px;
+        padding: 15px 20px;
+        line-height: 20px;
+        background-color: white;
+        color: black;
+        border: 3px solid #FF8210;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .history_content {
+        margin-left: 100px;
+    }
+
+    /* -----Mission Statement Section----- */
+    .mission-statement-title{
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .our_vision {
+        margin-left: 90px;
+        padding: 70px;
+        position: relative;
+        left: 18px;
+    }
+
+    .vision_title {
+        font-size: 40px;
+    }
+
+    .vision_desc {
+        font-size: 22px;
+    }
+
+    .vision_img {
+        width: 200px;
+        height: 200px;
+        padding: 25px;
+    }
+
+    .our_mission {
+        margin-right: 90px;
+        padding: 70px;
+        position: relative;
+        right: 6px;
+    }
+
+    .mission_title {
+        font-size: 40px;
+    }
+
+    .mission_desc {
+        font-size: 22px;
+    }
+
+    .mission_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* -----Harps Section----- */
+    .harps_desc {
+        font-size: 40px;
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+
+    .harps_word {
+        font-size: 180px;
+        position: relative;
+        bottom: 50px;
+        margin-left: 90px;
+    }
+
+    /* -----Five Character----- */
+    .honest_img,
+    .adaptive_img,
+    .responsible_img,
+    .punctual_img,
+    .solution-oriented_img {
+        text-align: right;
+    }
+
+    .honest {
+        margin-right: 200px;
+    }
+
+    .honest_title {
+        font-size: 40px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .honest_desc {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-right: 150px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .honest_img {
+        position: relative;
+        top: 45px;
+        right: 40px;
+    }
+
+    .adaptive {
+        margin-left: 220px;
+    }
+
+    .adaptive_title {
+        font-size: 40px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+
+    .adaptive_desc {
+        font-size: 22px;
+        margin-right: 150px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .adaptive_img {
+        position: relative;
+        top: 30px;
+        right: 30px;
+    }
+
+    .responsible {
+        margin-left: 440px;
+        margin-right: 440px;
+    }
+
+    .responsible_title {
+        font-size: 40px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .responsible_desc {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-right: 80px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .responsible_img {
+        position: relative;
+        top: 75px;
+        right: 30px;
+    }
+
+    .punctual {
+        margin-right: 200px;
+    }
+
+    .punctual_title {
+        font-size: 40px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .punctual_desc {
+        font-size: 22px;
+        margin-right: 150px;
+        margin-bottom: -10px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .punctual_img {
+        position: relative;
+        top: 70px;
+        right: 50px;
+    }
+
+    .solution-oriented {
+        margin-left: 200px;
+    }
+
+    .solution-oriented_title {
+        font-size: 40px;
+        margin-left: 30px;
+        margin-right: 75px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .solution-oriented_desc {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-right: 150px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .solution-oriented_img {
+        margin-top: -30px;
+        position: relative;
+        top: 70px;
+        right: 50px;
+    }
+
+    /* -----Environment Section----- */
+    .environment_desc {
+        font-size: 50px;
+        position: relative;
+        left: 100px;
+
+    }
+
+    /* -----Qualities Section----- */
+    .qualities_text {
+        font-size: 60px;
+        position: relative;
+        left: 100px;
+    }
+
+    .work-life-img,
+    .experimental-minds-img,
+    .continuous-growth-img {
+        position: relative;
+        left: 240px;
+    }
+
+    .work-life-text,
+    .experimental-minds-text,
+    .continuous-growth-text {
+        position: relative;
+        left: 180px;
+    }
+
+    .work-life-title,
+    .experimental-minds-title,
+    .continuous-growth-title {
+        font-size: 40px;
+    }
+
+    .work-life-desc,
+    .experimental-minds-desc,
+    .continuous-growth-desc {
+        font-size: 22px;
+    }
+
+    /* -----The Dream Team Section----- */
+    .dream-team_text {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    /* -----Departments Section----- */
+    .management_title,
+    .operation_title,
+    .experience_title,
+    .growth_title,
+    .human-resources_title,
+    .finance_title {
+        font-size: 40px;
+    }
+
+    .management_desc,
+    .operation_desc,
+    .experience_desc,
+    .growth_desc,
+    .human-resources_desc,
+    .finance_desc {
+        font-size: 22px;
+    }
+
+    /* -----Iterate Section----- */
+    .iterate_title,
+    .iterate_desc {
+        position: relative;
+        left: 150px;
+    }
+
+    .iterate_title {
+        font-size: 60px;
+    }
+
+    .iterate_desc {
+        text-align: justify;
+        margin-right: 350px;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .message-button{
+        font-family: "Outfit";
+        text-decoration: none;
+        width: 255px;
+        padding: 20px 20px;
+        line-height: 10px;
+        background-color: white;
+        color: black;
+        border: 3px solid #FF8210;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .message-button-position{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    /* -----Our Data Source Section----- */
+    .data-source_title {
+        font-size: 60px;
+    }
+
+    .legal_title,
+    .big-data_title,
+    .database_title {
+        font-size: 40px;
+    }
+
+    .legal_desc,
+    .big-data_desc,
+    .database_desc {
+        font-size: 22px;
+        text-align: justify;
+    }
+
+    .legal_text,
+    .database_text {
+        position: relative;
+        left: 50px;
+    }
+
+    .legal_desc,
+    .database_desc {
+        margin-right: 100px;
+    }
+
+    .database_title {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1399.98px) {
+    .greetings_img{
+        left: 35px;
+    }
+
+    .greetings_text{
+        left: 35px;
+    }
+
+    .greetings_desc{
+        margin-right: 58px;
+    }
+
+    .history_content{
+        margin-left: 30px;
+    }
+
+    .history_desc{
+        margin-right: 290px;
+    }
+
+    .our_vision{
+        margin-left: 30px;
+    }
+
+    .our_mission{
+        margin-right: 30px;
+    }
+
+    .harps_desc{
+        font-size: 35px;
+        margin-left: 35px;
+        margin-right: 0px;
+    }
+
+    .harps_word{
+        margin-left: 25px;
+        font-size: 165px;
+    }
+
+    .honest{
+        margin-right: 0px;
+    }
+
+    .adaptive{
+        margin-left: 0px;
+    }
+
+    .responsible{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .punctual{
+        margin-right: 0px;
+    }
+
+    .solution-oriented{
+        margin-left: 0px;
+    }
+
+    .work-life-img,
+    .experimental-minds-img,
+    .continuous-growth-img{
+        left: 200px;
+    }
+
+    .legal_text,
+    .database_text{
+        left: 10px;
+    }
+
+    .legal_desc,
+    .database_desc{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .greetings_text{
+        left: 15px;
+    }
+
+    .greetings_desc{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+
+    .history_desc{
+        margin-right: 150px;
+    }
+
+    .harps_desc{
+        margin-left: 0px;
+    }
+
+    .harps_word{
+        margin-left: 0px;
+        font-size: 140px;
+        right: 5px;
+        bottom: 40px;
+    }
+
+    .environment_desc{
+        left: 18px;
+        font-size: 40px;
+    }
+
+    .qualities_text{
+        left: 20px;
+        font-size: 50px;
+    }
+
+    .work-life-img,
+    .experimental-minds-img,
+    .continuous-growth-img{
+        left: 100px;
+    }
+
+    .iterate_title{
+        left: 0px;
+        font-size: 50px;
+    }
+
+    .iterate_desc{
+        left: 0px;
+        margin-right: 0px;
+    }
+
+    .legal_text,
+    .database_text{
+        left: 0px;
+    }
+
+    .legal_desc,
+    .database_desc{
+        margin-right: 0px;
+    }
+
+    .database_title{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .title{
+        font-size: 50px;
+    }
+
+    .greetings_text{
+        top: 30px;
+    }
+
+    .greetings_title{
+        font-size: 29px;
+    }
+
+    .greetings_desc{
+        font-size: 15px;
+    }
+
+    .history_content{
+        margin-left: 60px;
+    }
+
+    .history_title{
+        font-size: 50px;
+    }
+
+    .history_desc{
+        font-size: 15px;
+        margin-right: 100px;
+    }
+
+    .history-button-learn-more {
+        width: 200px;
+        padding: 15px 20px;
+        line-height: 10px;
+        border: 3px solid #FF8210;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .our_vision{
+        left: 0px;
+        margin-left: 0px;
+    }
+
+    .our_mission{
+        right: 0px;
+        margin-right: 0px;
+    }
+
+    .environment_desc{
+        left: 40px;
+        font-size: 35px;
+    }
+
+    .qualities_text{
+        left: 0px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .work-life-img,
+    .experimental-minds-img,
+    .continuous-growth-img{
+        left: 140px;
+    }
+
+    .iterate_title{
+        margin-left: 25px;
+    }
+
+    .iterate_desc{
+        left: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+    /* -----Greetings Section------ */
+    .greetings {
+        padding-bottom: 60px;
+        margin-bottom: -1px;
+    }
+
+    .greetings_img {
+        margin-top: 30px;
+        left: 0px;
+    }
+
+    .greetings_text {
+        left: 0px;
+        text-align: center;
+    }
+
+    .greetings_desc {
+        margin-right: 0px;
+    }
+
+
+    /* -----History and Journey----- */
+    .history_content {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .history_desc {
+        margin-right: 0px;
+    }
+
+    .history-button-position{
+        justify-content: center;
+    }
+
+
+    /* -----Mission Statement----- */
+    .mission-statement-title {
+        font-size: 28px;
+    }
+
+    .our_vision {
+        margin-left: 0px;
+        left: 0;
+        padding: 0px;
+    }
+
+    .our_mission {
+        margin-right: 0px;
+        padding: 0px;
+        right: 0px;
+    }
+
+    .vision_title,
+    .mission_title {
+        font-size: 35px;
+    }
+
+    .vision_desc,
+    .mission_desc {
+        font-size: 20px;
+    }
+
+    /* -----Harps Section----- */
+    .harps_desc {
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .harps_word {
+        font-size: 75px;
+        text-align: center;
+        bottom: 0;
+    }
+
+    /* -----Five Characters----- */
+    .honest,
+    .adaptive,
+    .punctual,
+    .solution-oriented {
+        margin-bottom: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .responsible {
+        margin-bottom: 50px;
+        margin-left: 135px;
+        margin-right: 135px;
+    }
+
+    .honest_title,
+    .adaptive_title,
+    .responsible_title,
+    .punctual_title,
+    .solution-oriented_title {
+        font-size: 24px;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        bottom: 0px;
+    }
+
+    .honest_desc,
+    .adaptive_desc,
+    .responsible_desc,
+    .punctual_desc,
+    .solution-oriented_desc {
+        font-size: 16px;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        bottom: 0px;
+    }
+
+    .honest_img {
+        margin: auto;
+        margin-top: 20px;
+        width: 120px;
+        height: 120px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .adaptive_img {
+        text-align: center;
+        padding-bottom: 60px;
+        top: 15px;
+        right: 0px;
+    }
+
+    .responsible_img {
+        margin-top: 10px;
+        text-align: center;
+        padding-bottom: 40px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .punctual_img {
+        text-align: center;
+        margin-top: 8px;
+        padding-bottom: 30px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .solution-oriented_img {
+        text-align: center;
+        margin-top: 15px;
+        padding-bottom: 35px;
+        top: 0px;
+        right: 0px;
+    }
+
+    /* -----Environment Section----- */
+    .environment_desc {
+        left: 0px;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    /* -----Qualities Section----- */
+    .qualities_text {
+        left: 0px;
+        font-size: 36px;
+    }
+
+    .work-life-img,
+    .experimental-minds-img,
+    .continuous-growth-img {
+        left: 0px;
+        margin: auto;
+        width: 240px;
+        height: 240px;
+    }
+
+    .work-life-text,
+    .experimental-minds-text,
+    .continuous-growth-text {
+        left: 0px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .work-life-title,
+    .experimental-minds-title,
+    .continuous-growth-title {
+        font-size: 35px;
+    }
+
+    .work-life-desc,
+    .experimental-minds-desc,
+    .continuous-growth-desc {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /* -----The Dream Team Section----- */
+    .dream-team_text {
+        font-size: 36px;
+    }
+
+    /* -----Departments Section */
+    .management_title,
+    .operation_title,
+    .experience_title,
+    .growth_title,
+    .human-resources_title,
+    .finance_title {
+        text-align: center;
+        margin-top: 12px;
+        font-size: 32px;
+    }
+
+    .management_desc,
+    .operation_desc,
+    .experience_desc,
+    .growth_desc,
+    .human-resources_desc,
+    .finance_desc {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    /* -----Iterate----- */
+    .iterate_title,
+    .iterate_desc {
+        left: 0px;
+    }
+
+    .iterate_title {
+        margin-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .iterate_desc {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /* -----Our Data Source----- */
+    .data-source_title {
+        font-size: 40px;
+    }
+
+    .legal_text,
+    .database_text {
+        left: 0px;
+    }
+
+    .legal_desc,
+    .database_desc {
+        margin-right: 0px;
+    }
+
+    .database_title {
+        margin-right: 0px;
+    }
+
+    .legal_title,
+    .big-data_title,
+    .database_title {
+        font-size: 32px;
+    }
+
+    .legal_desc,
+    .big-data_desc,
+    .database_desc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 45px;
+    }
+
+    /* -----Greetings Section------ */
+    .greetings {
+        padding-bottom: 60px;
+        margin-bottom: -1px;
+    }
+
+    .greetings_img {
+        margin-top: 30px;
+        left: 0px;
+    }
+
+    .greetings_text {
+        left: 0px;
+    }
+
+    .greetings_desc {
+        margin-right: 0px;
+    }
+
+
+    /* -----History and Journey----- */
+    .history_content {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .history-button-position{
+        justify-content: center;
+    }
+
+
+    /* -----Mission Statement----- */
+    .mission-statement-title {
+        font-size: 28px;
+    }
+
+    .our_vision {
+        margin-left: 0px;
+        left: 0;
+        padding: 0px;
+    }
+
+    .our_mission {
+        margin-right: 0px;
+        padding: 0px;
+        right: 0px;
+    }
+
+    .vision_title,
+    .mission_title {
+        font-size: 35px;
+    }
+
+    .vision_desc,
+    .mission_desc {
+        font-size: 20px;
+    }
+
+    /* -----Harps Section----- */
+    .harps_desc {
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .harps_word {
+        font-size: 75px;
+        text-align: center;
+        bottom: 0;
+    }
+
+    /* -----Five Characters----- */
+    .honest,
+    .adaptive,
+    .responsible,
+    .punctual,
+    .solution-oriented {
+        margin-bottom: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .honest_title,
+    .adaptive_title,
+    .responsible_title,
+    .punctual_title,
+    .solution-oriented_title {
+        font-size: 24px;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        bottom: 0px;
+    }
+
+    .honest_desc,
+    .adaptive_desc,
+    .responsible_desc,
+    .punctual_desc,
+    .solution-oriented_desc {
+        font-size: 16px;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        bottom: 0px;
+    }
+
+    .honest_img {
+        margin: auto;
+        margin-top: 20px;
+        width: 120px;
+        height: 120px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .adaptive_img {
+        text-align: center;
+        padding-bottom: 15px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .responsible_img {
+        margin-top: 10px;
+        text-align: center;
+        padding-bottom: 40px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .punctual_img {
+        text-align: center;
+        margin-top: 15px;
+        padding-bottom: 30px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .solution-oriented_img {
+        text-align: center;
+        margin-top: 15px;
+        padding-bottom: 35px;
+        top: 0px;
+        right: 0px;
+    }
+
+    /* -----Environment Section----- */
+    .environment_desc {
+        left: 0px;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    /* -----Qualities Section----- */
+    .qualities_text {
+        left: 0px;
+        font-size: 36px;
+    }
+
+    .work-life-img,
+    .experimental-minds-img,
+    .continuous-growth-img {
+        left: 0px;
+        margin: auto;
+        width: 240px;
+        height: 240px;
+    }
+
+    .work-life-text,
+    .experimental-minds-text,
+    .continuous-growth-text {
+        left: 0px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .work-life-title,
+    .experimental-minds-title,
+    .continuous-growth-title {
+        font-size: 35px;
+    }
+
+    .work-life-desc,
+    .experimental-minds-desc,
+    .continuous-growth-desc {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /* -----The Dream Team Section----- */
+    .dream-team_text {
+        font-size: 36px;
+    }
+
+    /* -----Departments Section */
+    .management_title,
+    .operation_title,
+    .experience_title,
+    .growth_title,
+    .human-resources_title,
+    .finance_title {
+        text-align: center;
+        margin-top: 12px;
+        font-size: 32px;
+    }
+
+    .management_desc,
+    .operation_desc,
+    .experience_desc,
+    .growth_desc,
+    .human-resources_desc,
+    .finance_desc {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    /* -----Iterate----- */
+    .iterate_title,
+    .iterate_desc {
+        left: 0px;
+    }
+
+    .iterate_title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .iterate_desc {
+        margin-right: 0px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /* -----Our Data Source----- */
+    .data-source_title {
+        font-size: 40px;
+    }
+
+    .legal_title,
+    .legal_desc,
+    .database_title,
+    .database_desc {
+        right: 0px;
+    }
+
+    .legal_desc,
+    .database_desc {
+        margin-right: 0px;
+    }
+
+    .database_title {
+        margin-right: 0px;
+    }
+
+    .legal_title,
+    .big-data_title,
+    .database_title {
+        font-size: 32px;
+    }
+
+    .legal_desc,
+    .big-data_desc,
+    .database_desc {
+        font-size: 20px;
+    }
+}

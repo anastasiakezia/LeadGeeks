@@ -1,0 +1,560 @@
+/* -------------------------------------------------- */
+/* --------------------- Navbar --------------------- */
+/* -------------------------------------------------- */
+nav {
+  width: 100%;
+  padding: 50px 0;
+  /* animation magic */
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  z-index: 9999;
+  top: 0;
+  position: fixed;
+}
+
+a.navbar-brand img.navbar-logo {
+  max-width: 170px;
+  transition: all linear 0.5s ease-in-out;
+}
+
+.shrink {
+  padding: 0;
+}
+
+.navbar {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar .container-fluid {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.nav-item .nav-link {
+  color: #292929;
+  margin-left: 42px;
+}
+
+a.nav-link.active {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 3px solid #f15a25;
+  margin-bottom: -2px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  /* remove the gap so it doesn't close */
+}
+
+.navbar .container {
+  padding: 0 110px;
+}
+
+/* -------------------------------------------------- */
+/* ------------------- Home Page -------------------- */
+/* -------------------------------------------------- */
+
+/* Filling In The Gap */
+.title-text h1 {
+  font-family: "Outfit", sans-serif;
+}
+
+.desc-text p {
+  color: #292929;
+}
+
+.filling-img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-start-demo {
+  font-family: "Outfit";
+  text-decoration: none;
+  width: 255px;
+  padding: 10px 20px;
+  background-color: #ff8210;
+  color: white;
+  border: 3px solid #ff8210;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-start-demo:hover {
+  box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-learn-more {
+  font-family: "Outfit";
+  text-decoration: none;
+  width: 255px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 3px solid #ff8210;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btn-learn-more:hover {
+  box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Explanation */
+
+.manually-img,
+.turning-img,
+.team-img {
+  width: 80%;
+  margin-top: 40px;
+}
+
+.dedicated-img {
+  margin-top: 40px;
+  width: 80%;
+}
+
+.team {
+  background-color: #f1f2f3;
+}
+
+/* About Tech Stack */
+.bulb-logo-left {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  width: 180px;
+  height: 220px;
+  transform: translateY(-65%);
+}
+
+.bulb-logo-right {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  width: 180px;
+  height: 220px;
+  transform: translateY(-65%);
+}
+
+.about {
+  background-color: #292929;
+  position: relative;
+}
+
+/* Current Total */
+.current-img {
+  width: 70%;
+}
+
+/* What We Offer */
+.what-we-offer-text {
+  color: #f15a25;
+}
+
+.what-we-offer {
+  background-color: #292929;
+}
+
+.what-we-offer-img {
+  width: 70%;
+}
+
+.btn-see-how-to-partnership {
+  font-family: "Outfit";
+  /* width: 170px; */
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border: 3px solid #ff8210;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-see-how-to-partnership:hover {
+  box-shadow: 0px 6px 10px 2px rgba(255, 255, 255, 0.25);
+}
+
+/* Territory overage */
+.map-img {
+  position: relative;
+}
+
+/* What They Say About Us */
+.what-they-say {
+  background-color: #f15a25;
+}
+
+.testimoni-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* We have helped */
+.we-have-img {
+  width: 70%;
+}
+
+/* Frequently Asked Question */
+.faq {
+  background-color: #292929;
+}
+
+.faq .card {
+  cursor: pointer;
+}
+
+.faq-text {
+  color: #f15a25;
+}
+
+.title-card-faq {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.desc-card-faq {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 18px;
+}
+
+.btn-faq {
+  top: 50%;
+  transform: translateY(-50%);
+  right: -70px;
+}
+
+/* FORM */
+.form-section-background {
+  background-color: #f1f2f4;
+}
+
+.form-text {
+  color: black;
+  font-size: 50px;
+}
+
+.label-name-text {
+  font-family: "Outfit";
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.form-control,
+.form-select {
+  box-shadow: 4px 4px 10px rgba(108, 108, 108, 0.25);
+  height: 50px;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+.form-control::placeholder {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  color: #29292952;
+  color: rgba(41, 41, 41, 0.32);
+}
+
+.option-form {
+  font-size: 24px;
+}
+
+.btn-form button,
+.btn-form a {
+  font-family: "Outfit";
+  background-color: #ff8210;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  display: inline-block;
+  padding: 20px 75px;
+  text-decoration: none;
+}
+
+.btn-form {
+  gap: 40px;
+}
+
+.btn-white {
+  background: white !important;
+  color: black !important;
+  border: 3px solid #ff8210 !important;
+  text-decoration: none;
+}
+
+/* TESTIMONI 2 */
+.testimoni2 {
+  background-color: #f15a25;
+}
+
+.testimoni-title-desc-text {
+  font-weight: 700;
+}
+
+.carousel-control-prev {
+  left: -125px;
+  opacity: 1;
+}
+
+.carousel-control-next {
+  right: -125px;
+  opacity: 1;
+}
+
+.carousel-testimoni {
+  background-color: #f1f2f3;
+  border-radius: 10px;
+}
+
+.carousel-testimoni h2 {
+  font-weight: 700;
+}
+
+.carousel-testimoni p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Get started - Button Get In Touch */
+.btn-get-in-touch {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: 400;
+  font-family: "Outfit";
+  background-color: #ff8210;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  display: inline-block;
+}
+
+/* Spinner Loading */
+.spinner {
+  border-top-color: #f15a25 !important;
+  border-bottom-color: #f15a25 !important;
+}
+
+/* ---------------------------------------------------- */
+/* -------------------- Services Page ----------------- */
+/* ---------------------------------------------------- */
+#services h1,
+#services h2,
+#services h3 {
+  font-family: "Outfit", sans-serif;
+}
+
+#services p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+#services .btn {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Headline Section */
+#services .headline {
+  max-width: 1064px;
+}
+
+#services .headline__img {
+  max-width: 532px;
+}
+
+#services .headline h1 {
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-70%);
+}
+
+/* Free Trial */
+#services .free-trial__heading {
+  font-size: 20px;
+}
+
+#services .free-trial__cta {
+  font-size: 15px;
+}
+
+/* Title */
+#services h1.services-title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+/* Data Specialist Section */
+#services .data-specialist {
+  background-color: var(--color-light-gray);
+}
+
+#services .data-specialist__heading {
+  font-weight: 900;
+}
+
+#services h3.data-specialist__heading {
+  font-size: 30px;
+}
+
+/* Inside Sales Representative Section */
+#services .inside-sales-representative__image {
+  padding-left: 180px;
+}
+
+#services .inside-sales-representative__description {
+  background-color: var(--color-dark-gray);
+  padding: 0 100px;
+}
+
+#services .inside-sales-representative__heading {
+  font-weight: 900;
+}
+
+#services h3.inside-sales-representative__heading {
+  font-size: 30px;
+}
+
+/* Divider */
+#services .divider {
+  background-color: var(--color-orange-100);
+}
+
+#services .divider h2 {
+  font-size: 30px;
+}
+
+/* leadgeeks-tasks Section */
+#services .leadgeeks-tasks .row {
+  align-items: center;
+}
+
+#services .leadgeeks-tasks h3 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+#services .leadgeeks-tasks p {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* Iteration Cycle Section */
+/* #iteration-cycle {
+  padding-top: 100px;
+} */
+
+#services .iteration-cycle {
+  background-color: var(--color-dark-gray);
+}
+
+#services .iteration-cycle__heading {
+  font-family: "Outfit", sans-serif;
+}
+
+#services .iteration-cycle__heading h3 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+#services .iteration-cycle__heading p {
+  font-size: 18px;
+}
+
+#services .iteration-cycle__step {
+  grid-template-columns: minmax(200px, 1fr) minmax(0, 402px) minmax(200px, 1fr);
+  row-gap: 48px;
+}
+
+#services .iteration-cycle__step h3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#services .iteration-cycle__step p {
+  font-size: 15px;
+}
+
+#services .iteration-cycle__step--2 {
+  grid-column: 3;
+  text-align: end;
+}
+
+#services .iteration-cycle__step--3 {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: end;
+}
+
+#services .iteration-cycle__logo {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: center;
+}
+
+#services .iteration-cycle__logo img {
+  width: 100%;
+}
+
+/* -------------------------------------------------- */
+/* --------------------- Footer --------------------- */
+/* -------------------------------------------------- */
+.container-fluid.all-page-footer {
+  width: 90%;
+}
+
+.container-fluid.all-page-footer p {
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Montserrat";
+  text-align: left;
+  color: rgb(156, 162, 176);
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.row.footer1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(156, 162, 176, 0.4);
+}
+
+.row.footer2 a,
+.row.footer2 p {
+  text-decoration: none;
+  font-family: "Outfit";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  color: rgb(156, 162, 176);
+}
+
+/* ----------------------------------------------------- */
+/* --------------------- Utilities --------------------- */
+/* ----------------------------------------------------- */
+.text-orange-100 {
+  color: var(--color-orange-100) !important;
+}
+
+.border-orange-200 {
+  border-color: var(--color-orange-200) !important;
+}
